@@ -1,0 +1,57 @@
+el único valor que se usa de cooperativa es la columna de cantidad, que corresponde a la cantidad a DESCONTAR del empleado.
+
+concepto se adapta a los conceptos propios de cada numeración
+
+PERO MONTO VA EN EL FORMATO DE CARGA
+
+BORRO MONTO, DESPUÉS CANTIDAD PASA 
+
+DE PROPINA VOLUNTARIA SOLO USAMOS CÓDIGO Y NETO
+
+LISTADO DE CONCEPTOS SE USA COMO DICCIONARIO (mental). HISPIZZA Y SATORI TIENEN SUS PROPIOS CONCEPTOS.
+
+UNA PERSONA PUEDE AGARRAR DIFERENTES CONCEPTOS. Porque son razones de ingresos y egresos. Tipo de nómina también.
+
+cada concepto es una línea
+
+DICCIONARIO PARA PUESTOS Y SABER QUIÉN APLICA PARA PROPINA. pero ya está considerado
+
+
+Los PDF son casos puntuales.
+
+concatenar los datos de horas PBI en un solo df.
+
+Los incentivos de gerente, que se pagan los días 30, se hace un recálculo en una hoja llama Carga pago Mes24 (mesaño), en el encabezado Valor final a pagar.
+
+los demás incentivos se pagan los días 15. se usa tabla dinámica 1, se usa el código y monto a pagar. 
+
+del incentivo CAC se usa la hoja Summary, se usa código y monto.
+
+
+para todos los bonos veré cómo se ponen todos en sus respectivos fólderes
+
+###### LICENCIA MÉDICA ESTÁ SEMIAUTOMATIZADA ######
+Pero se trata diferente.
+
+Es muy complejo como para estandarizarlo.
+
+
+dos conceptos diferentes son dos líneas diferentes, cuidado con el merge. Depende del concepto se le concatena x o y descuento o bono.
+
+
+concepto con B, es beneficio
+con D, es deducción
+El de cooperativa es una deducción.
+
+hay estructura de columnas de formato de carga.
+|EMPLEADO	|NOMINA	|CONCEPTO	|CANTIDAD	|MONTO	|
+
+Lo que estaba en CANTIDAD de cooperativa va en la columna de MONTO en el formato de carga, y la cantidad en ESE CONCEPTO, es 0.
+
+
+intentar hacer una hoja para que ella revise los casos manuales
+
+
+
+
+
